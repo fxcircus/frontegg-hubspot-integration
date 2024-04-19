@@ -6,7 +6,7 @@ Screen recording with final result
 
 ## Step 1 - running the test app
 
-- Clone the [sample repo from GitHub]((images/HubSpot Integration with Frontegg video.qt)) and follow the instructions from the Readme
+- Clone the repo
     
     ```jsx
     git clone https://github.com/fxcircus/frontegg-hubspot-integration.git
