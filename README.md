@@ -6,7 +6,7 @@ Screen recording with final result
 
 ## Step 1 - running the test app
 
-- Clone the [sample repo from GitHub](https://github.com/fxcircus/frontegg-hubspot-integration/tree/main) and follow the instructions from the Readme
+- Clone the [sample repo from GitHub]((images/HubSpot Integration with Frontegg video.qt)) and follow the instructions from the Readme
     
     ```jsx
     git clone https://github.com/fxcircus/frontegg-hubspot-integration.git
@@ -30,7 +30,7 @@ Screen recording with final result
 - Click the S`ettings` icon in the top right corner (gear icon).
 - Navigate to the **`Integrations`** section, click on **`Private apps` ➜ `Create a private app`** ➜ set a name and description
     
-    ![Untitled](HubSpot%20Integration%20with%20Frontegg%20758fb9e9cdc34e57963ba9bb5ac08ce4/Untitled.png)
+    ![Untitled]((images/HubSpot_Integration_1.png))
     
 - Click on the `Scopes` tab ➜ add the following scopes-
   `crm.schemas.contacts.read` , `crm.objects.contacts.read`
@@ -46,11 +46,11 @@ Screen recording with final result
     
     Click `Subscribe` ➜ `Create App`
     
-    ![Untitled](HubSpot%20Integration%20with%20Frontegg%20758fb9e9cdc34e57963ba9bb5ac08ce4/Untitled%201.png)
+    ![Untitled]((images/HubSpot_Integration_2.png))
     
 - Once the app is created, you will get an API token, add this value to the `HUBSPOT_APPLICATION_TOKEN` from step 1
     
-    ![Untitled](HubSpot%20Integration%20with%20Frontegg%20758fb9e9cdc34e57963ba9bb5ac08ce4/Untitled%202.png)
+    ![Untitled]((images/HubSpot_Integration_2.png))
     
 
 ## Step 3 - Creating new contact in HubSpot
