@@ -27,7 +27,7 @@ Screen recording with final result
 ## Step 2 - HubSpot app setup
 
 - Login to your HubSpot account.
-- Click the S`ettings` icon in the top right corner (gear icon).
+- Click the `Settings` icon in the top right corner (gear icon).
 - Navigate to the **`Integrations`** section, click on **`Private apps` ➜ `Create a private app`** ➜ set a name and description
     
     ![HubSpot Integration 1](images/HubSpot_Integration_1.png)
@@ -67,4 +67,5 @@ Screen recording with final result
 
 - You can call [Frontegg’s Signup API endpoint](https://docs.frontegg.com/reference/userscontrollerv1_signupuser) instead of the invite endpoint
 This endpoint creates a new tenant for the user instead of inviting to an existing tenant. And the user will get the default roles from your Frontegg environment instead of you needing to set the roleIds.
-- Consider changing `getFronteggBearerToken` to run every 24 hours instead of every time you get a new request, this will save time and redundant calls. The bearer token JWT is valid for 24 hours,
+- Consider changing `getFronteggBearerToken()` to run every 24 hours instead of every time you get a new request, this will save time and redundant calls. The bearer token JWT is valid for 24 hours.
+- Subscribe to more events in HubSpot like `contact.deletion` and use Frontegg APIs to delete the user automatically from Frontegg
