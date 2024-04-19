@@ -2,7 +2,7 @@
 
 Screen recording with final result
 
-[Untitled](HubSpot%20Integration%20with%20Frontegg%20758fb9e9cdc34e57963ba9bb5ac08ce4/Untitled.qt)
+[HubSpot_Integration_with_Frontegg_video](images/HubSpot_Integration_with_Frontegg_video.qt)
 
 ## Step 1 - running the test app
 
