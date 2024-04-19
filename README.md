@@ -30,7 +30,7 @@ Screen recording with final result
 - Click the S`ettings` icon in the top right corner (gear icon).
 - Navigate to the **`Integrations`** section, click on **`Private apps` ➜ `Create a private app`** ➜ set a name and description
     
-    ![Untitled]((images/HubSpot_Integration_1.png))
+    ![HubSpot Integration 1](images/HubSpot_Integration_1.png)
     
 - Click on the `Scopes` tab ➜ add the following scopes-
   `crm.schemas.contacts.read` , `crm.objects.contacts.read`
@@ -46,11 +46,11 @@ Screen recording with final result
     
     Click `Subscribe` ➜ `Create App`
     
-    ![Untitled]((images/HubSpot_Integration_2.png))
+    ![HubSpot Integration 2](images/HubSpot_Integration_2.png)
     
 - Once the app is created, you will get an API token, add this value to the `HUBSPOT_APPLICATION_TOKEN` from step 1
     
-    ![Untitled]((images/HubSpot_Integration_2.png))
+    ![HubSpot Integration 3](images/HubSpot_Integration_3.png)
     
 
 ## Step 3 - Creating new contact in HubSpot
